@@ -1,7 +1,7 @@
 import { createRouter, createWebHistory } from "vue-router";
 import d1 from "../views/d1.vue";
 // eslint-disable-next-line @typescript-eslint/ban-ts-comment
-// @ts-ignore
+// @ts-ignore :::: ddd
 import d2 from "../views/d2.vue";
 import d3 from "../views/d3.vue";
 import d4 from "../views/d4.vue";
@@ -11,7 +11,12 @@ import d6 from "../views/d6.vue";
 import d9 from "../views/d9.vue";
 import d11 from "../views/d11.vue";
 import d13 from "../views/d13.vue";
+import d13_1 from "../views/d13_1.vue";
+import d14 from "../views/d14.vue";
 import d15 from "../views/d15.vue";
+import d15_1 from "../views/d15_1.vue";
+import d16 from "../views/d16.vue";
+import d16_1 from "../views/d16_1.vue";
 
 
 const router = createRouter({
@@ -73,9 +78,34 @@ const router = createRouter({
       component: d13,
     },
     {
+      path: "/d13_1",
+      name: "d13_1",
+      component: d13_1,
+    },
+    {
+      path: "/d14",
+      name: "d14",
+      component: d14,
+    },
+    {
       path: "/d15",
       name: "d15",
       component: d15,
+    },
+    {
+      path: "/d15_1",
+      name: "d15_1",
+      component: d15_1,
+    },
+    {
+      path: "/d16",
+      name: "d16",
+      component: d16,
+    },
+    {
+      path: "/d16_1",
+      name: "d16_1",
+      component: d16_1,
     },
   ]
 });
