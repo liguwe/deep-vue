@@ -11,6 +11,7 @@ const t8 = 1;
 app.use(createPinia());
 app.use(router);
 const t6 = 1;
+const t10 = 1;
 
 // 832: 挂载应用
 app.mount("#app");
